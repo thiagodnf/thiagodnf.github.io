@@ -4,6 +4,16 @@ body {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color: #333;
 	line-height: 1.4;
-	font-size: 14px;
+	font-size: 14px;	
+}
+
+.hero-fade {
+	background: #4B9FDF;
+	background: url(../img/about-frontdoor-hero.jpg) repeat-x #efefef;
+}
+
+.hero-short, .hero-short .hero-wrap-outer {
+	height: 20px;
+	overflow: hidden;
 }
 
