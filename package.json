@@ -1,0 +1,30 @@
+{
+	"name": "my-personal-page",
+	"version": "1.0.0",
+	"description": "My Personal Page",
+	"main": "app.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"engines": {
+		"node": ">=0.10.0"
+	},
+	"files": [
+		"app.js"
+	],
+	"author": "Thiago Ferreira",
+	"license": "",
+	"homepage": "http://www.inf.ufpr.br/tnferreira",
+	"dependencies": {
+		"serve-static": "",
+		"connect": "",
+		"network": "",
+		"fs-extra": "",
+		"chokidar": "",
+		"winston": "2.4.3",
+		"ncp": "",
+		"recursive-readdir": "",
+		"recursive-readdir-synchronous": "",
+		"livereload": ""
+	}
+}
