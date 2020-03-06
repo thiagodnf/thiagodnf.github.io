@@ -62,11 +62,12 @@ p.lead {
   color: #fff !important;
   border-radius: 100%;
   text-align: center;
-  /* font-size: 1.5rem;
-  line-height: 3.5rem; */
-  margin-right: 1rem;
-  padding-top: 7px;
+    font-size: 2.5rem;
+  /*line-height: 3.5rem; */
+  margin-right: 0.5rem;
+  padding-top: 2px;
 }
+
 
 .social-icons a:last-child {
   margin-right: 0;
