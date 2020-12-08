@@ -1,7 +1,7 @@
 var connect = require('connect');
     serveStatic = require('serve-static');
     network = require('network');
-    port = process.env.PORT || 8081;
+    port = process.env.PORT || 3000;
     project = require('./package.json');
     winston = require('winston');
     liveReload = require('livereload');
