@@ -1,5 +1,9 @@
 :root {
-    color-scheme: light dark; /* both supported */
+    color-scheme: light dark;
+    --background-color: #fff;
+    --text-color: #121416d8;
+    --link-color: #543fd7;
+    --text-warning: #FF795F;
 }
 
 body {
@@ -14,12 +18,11 @@ body {
     /* #151B23 */
 }
 
+.text-warning{
+    color: var(--text-warning) !important;
+}
 .text-primary {
   color: #2c6085 !important;
-}
-
-.black{
-    color: black;
 }
 
 main a {

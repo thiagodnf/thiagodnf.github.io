@@ -5,10 +5,6 @@ body.dark-theme {
     background-color: #0C1118 !important;
 }
 
-/* Dark theme colors */
-body.dark-theme .black {
-    color: white;
-}
 
 body.dark-theme .bg-primary {
     background-color: #151B23 !important;
