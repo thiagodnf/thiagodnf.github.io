@@ -46,7 +46,7 @@ main a {
 }
 
 main a:hover, main a:focus, main a:active {
-    color: var(--text-primary)
+    color: var(--text-primary) !important;
 }
 
 @media (min-width: 992px) {
@@ -177,7 +177,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bibbase_paper_title a {
-    color: #2c6085 !important;
+    color: var(--text-primary) !important;
 }
 
 .bibbase.link{
