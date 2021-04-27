@@ -8,15 +8,13 @@
     --header-text-color: #343a40;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background-color: #0C1118;
-        --text-color: #8A949F;
-        --link-color: #49A0FF;
-        --text-primary: #49A0FF;
-        --sidebar-background-color: #151B23;
-        --header-text-color: #C8D1DA;
-    }
+body.dark {
+    --background-color: #0C1118;
+    --text-color: #8A949F;
+    --link-color: #49A0FF;
+    --text-primary: #49A0FF;
+    --sidebar-background-color: #151B23;
+    --header-text-color: #C8D1DA;
 }
 
 body {
@@ -66,13 +64,13 @@ h1, h2{
 
 .social-icons a {
     display: inline-block;
-    height: 4rem;
-    width: 4rem;
+    height: 3.5rem;
+    width: 3.5rem;
     background-color: #495057;
     color: #fff !important;
     border-radius: 100%;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     margin-right: 0.5rem;
     padding-top: 2px;
 }
