@@ -1,21 +1,20 @@
 :root {
     color-scheme: light dark;
+    --background-color: white;
     --text-color: #6c757d;
     --link-color: #2c6085;
     --text-primary: #2c6085;
     --sidebar-background-color: #24292e;
-    --background-color: white;
     --header-text-color: #343a40;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        color-scheme: light dark;
+        --background-color: #0C1118;
         --text-color: #8A949F;
         --link-color: #49A0FF;
         --text-primary: #49A0FF;
         --sidebar-background-color: #151B23;
-        --background-color: #0C1118;
         --header-text-color: #C8D1DA;
     }
 }
