@@ -3,12 +3,24 @@ body {
   color: #586069;
 }
 
+.black{
+    color: black;
+}
+
 main a {
     color: #2c6085;
 }
 
 main a:hover, main a:focus, main a:active {
     color: #2c6085;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    /* body {
+        background-color: black;
+        color: white;
+    } */
 }
 
 @media (min-width: 992px) {
