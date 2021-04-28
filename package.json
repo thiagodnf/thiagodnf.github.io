@@ -13,7 +13,7 @@
     "scripts": {
         "start": "node server.js",
         "nodemon": "nodemon server.js",
-        "scss": "sass css/style.scss:css/style.css",
+        "scss": "sass --watch css/style.scss css/style.css",
         "dev": "concurrently \"npm:nodemon\" \"npm:scss\"",
         "lint": "npx eslint .",
         "lint-fix": "npx eslint . --fix"

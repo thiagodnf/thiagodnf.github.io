@@ -1,7 +1,7 @@
 "use strict";
 
 function isDarkModeActivatedinTheOS(){
-    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)");
+    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
 }
 
 function getSavedColorTheme(){
@@ -12,33 +12,16 @@ function enableDarkMode(enable){
 
     if (enable) {
         document.body.classList.add("dark");
-        localStorage.setItem("colorTheme", "dark");
+        document.body.classList.remove("light");
         $('#theme-toggle').attr("checked", "checked");
     } else {
+        document.body.classList.add("light");
         document.body.classList.remove("dark");
-        localStorage.setItem("colorTheme", "light");
         $('#theme-toggle').removeAttr("checked");
     }
 }
 
-function toggleTheme(){
-
-    let colorTheme = getSavedColorTheme();
-
-    if (colorTheme) {
-        enableDarkMode(colorTheme == "dark");
-    } else {
-        if (isDarkModeActivatedinTheOS()) {
-            enableDarkMode(true);
-        } else {
-            enableDarkMode(false);
-        }
-    }
-}
-
 (function($) {
-
-
 
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
@@ -68,10 +51,25 @@ function toggleTheme(){
         target: '#sideNav'
     });
 
-    toggleTheme();
+    const colorTheme = getSavedColorTheme();
+
+    if (colorTheme == "dark") {
+        enableDarkMode(true);
+    } else if (colorTheme == "light") {
+        enableDarkMode(false);
+    } else {
+        if(isDarkModeActivatedinTheOS()){
+            $('#theme-toggle').attr("checked", "checked");
+        }
+    }
 
     $('#theme-toggle').click(function() {
-        enableDarkMode($(this).is(":checked"))
+
+        const isDark = $(this).is(":checked");
+
+        enableDarkMode(isDark)
+
+        localStorage.setItem("colorTheme", isDark? "dark" : "light");
     });
 
 })(jQuery); // End of use strict
