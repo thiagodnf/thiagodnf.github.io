@@ -1,0 +1,7 @@
+# yaml-language-server: $schema=../../schemas/journal-reviewer.schema.json
+- Information and Software Technology (IST)
+- Empirical Software Engineering (EMSE)
+- IEEE Transactions on Cybernetics
+- IEEE Access
+- Journal of Software Engineering Research and Development (JSERD)
+- Journal of Systems & Software (JSS)

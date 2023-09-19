@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../../schemas/program-chair.schema.json
+- title: 6th International Workshop on Software Refactoring (IWoR '22)
+  year: 2022
+  roles:
+    - Research Track

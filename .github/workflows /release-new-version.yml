@@ -1,0 +1,55 @@
+name: "Release New Version"
+
+on:
+  pull_request:
+  push:
+    paths:
+      - 'package.json'
+    branches: [ "master", "main" ]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checking out
+      uses: actions/checkout@v3
+
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 16
+
+    - id: version-decider
+      name: Version Decider
+      uses: thiagodnf/version-decider@v1.0.7
+      with:
+        file: ./package.json
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Creating a new release on Github
+      uses: softprops/action-gh-release@v1
+      if: steps.version-decider.outputs.new
+      with:
+        name: v${{ steps.version-decider.outputs.version }}
+        tag_name: v${{ steps.version-decider.outputs.version }}
+        # files: "*"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - if: steps.version-decider.outputs.new
+      run: npm ci
+
+    - if: steps.version-decider.outputs.new
+      run: npm run build
+
+    - if: steps.version-decider.outputs.new
+      name: Add .nojekyll file
+      run: touch ./out/.nojekyll
+
+    - if: steps.version-decider.outputs.new
+      name: Deploy
+      uses: JamesIves/github-pages-deploy-action@4.1.1
+      with:
+        branch: gh-pages
+        folder: out

@@ -1,0 +1,113 @@
+@import "bootstrap";
+
+body {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+main {
+
+    min-height: 100vh;
+
+    ul li {
+        margin-bottom: .5rem !important;
+    }
+
+    p {
+        margin-bottom: map_get($spacers, 3) !important;
+    }
+
+    h5 {
+        margin-top: map_get($spacers, 4);
+        margin-bottom: map_get($spacers, 4);
+    }
+}
+
+.collapse-group {
+
+    [data-bs-toggle="collapse"] {
+
+        margin-left: 20px;
+        cursor: pointer;
+
+        i::before {
+            margin-right: 5px !important;
+            margin-left: -20px;
+            transform: rotate(90deg);
+            transition-duration: 0.3s;
+            transition-property: transform;
+        }
+    }
+
+    .collapsed i::before {
+        transform: rotate(0deg);
+        transition-duration: 0.3s;
+    }
+
+    .collapse,
+    .collapsing {
+        padding-left: 20px;
+    }
+}
+
+.dropdown-toggle::after {
+    color: var(--bs-body-color) !important
+}
+
+#sideNav {
+
+    img {
+        margin-top: 10px;
+    }
+
+    .nav-link {
+
+        &.active {
+            color: $white;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+
+    header .container-fluid {
+        padding-left: calc(17rem + 1.5rem) !important;
+    }
+
+    main .test {
+        padding-left: calc(17rem + 1.5rem) !important;
+        padding-right: 1.5rem !important;
+    }
+
+    #sideNav {
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 17rem;
+        height: 800vh;
+
+        .navbar-collapse {
+
+            display: flex;
+            align-items: flex-start;
+            flex-grow: 0;
+            width: 100%;
+            margin-bottom: auto;
+
+            .navbar-nav {
+
+                flex-direction: column;
+                width: 100%;
+
+                .nav-item {
+
+                    display: block;
+
+                }
+            }
+        }
+    }
+}
