@@ -51,7 +51,7 @@ export default function Document() {
             <body className="d-flex flex-column h-100">
                 <Main />
                 <NextScript />
-                <Script async src="https://www.googletagmanager.com/gtag/js?id=G-HNGSCV50W9"></Script>
+                <Script async src="https://www.googletagmanager.com/gtag/js?id=G-EZ36G6P3MT"></Script>
                 <Script>{injectGA()}</Script>
             </body>
         </Html>
