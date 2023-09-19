@@ -51,8 +51,16 @@ export default function Document() {
             <body className="d-flex flex-column h-100">
                 <Main />
                 <NextScript />
-                <Script async src="https://www.googletagmanager.com/gtag/js?id=G-EZ36G6P3MT"></Script>
-                <Script>{injectGA()}</Script>
+                <Script src="https://www.googletagmanager.com/gtag/js?id=G-EZ36G6P3MT"></Script>
+                <Script>{`
+
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+
+                    gtag("js", new Date());
+
+                    gtag("config", "G-EZ36G6P3MT");
+                `}</Script>
             </body>
         </Html>
     );
