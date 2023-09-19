@@ -29,6 +29,12 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+    - if: steps.version-decider.outputs.new
+      run: npm ci
+
+    - if: steps.version-decider.outputs.new
+      run: npm run build
+
     - name: Creating a new release on Github
       uses: softprops/action-gh-release@v1
       if: steps.version-decider.outputs.new
@@ -38,12 +44,6 @@ jobs:
         # files: "*"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-    - if: steps.version-decider.outputs.new
-      run: npm ci
-
-    - if: steps.version-decider.outputs.new
-      run: npm run build
 
     - if: steps.version-decider.outputs.new
       name: Add .nojekyll file
