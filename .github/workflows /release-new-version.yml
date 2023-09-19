@@ -5,7 +5,6 @@ on:
   push:
     paths:
       - 'package.json'
-    branches: [ "master", "main" ]
 
 jobs:
   release:
