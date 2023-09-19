@@ -6,6 +6,9 @@ on:
     paths:
       - 'package.json'
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,7 +19,7 @@ jobs:
 
     - uses: actions/setup-node@v3
       with:
-        node-version: 16
+        node-version: 18
 
     - id: version-decider
       name: Version Decider
