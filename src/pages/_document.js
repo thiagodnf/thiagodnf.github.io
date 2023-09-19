@@ -3,20 +3,6 @@ import Script from "next/script";
 
 import Package from "../../package.json";
 
-const injectGA = () => {
-
-    if (typeof window == "undefined") {
-        return;
-    }
-
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-
-    gtag("js", new Date());
-
-    gtag("config", "G-EZ36G6P3MT");
-};
-
 export default function Document() {
 
     return (
@@ -51,8 +37,8 @@ export default function Document() {
             <body className="d-flex flex-column h-100">
                 <Main />
                 <NextScript />
-                <Script src="https://www.googletagmanager.com/gtag/js?id=G-EZ36G6P3MT"></Script>
-                <Script>{`
+                <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-EZ36G6P3MT"></Script>
+                <Script strategy="afterInteractive">{`
 
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
