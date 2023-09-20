@@ -1,3 +1,19 @@
+$dracula-black: #15171b;
+$dracula-dark: #1d1e26;
+$dracula-light-dark: #282a36;
+$dracula-secondary: #414558;
+$dracula-disabled: #8a8f98;
+$dracula-muted: $dracula-secondary;
+
+$dracula-cyan: #80FFEA;
+$dracula-green: #8aff80;
+$dracula-orange: #ffca80;
+$dracula-pink: #ff80bf;
+$dracula-purple: #9580FF;
+$dracula-red: #ff9580;
+$dracula-yellow: #ffff80;
+$dracula-white: #f8f8f2;
+
 @import "bootstrap";
 
 body {
@@ -22,6 +38,34 @@ main {
         margin-bottom: map_get($spacers, 4);
     }
 }
+
+@include color-mode(dark) {
+
+    body {
+        background-color: $dracula-black !important;
+        color: $dracula-disabled !important;
+    }
+
+    h5, h6{
+        color: white !important;
+    }
+
+    .text-dark {
+        color: white !important;
+    }
+
+    strong {
+        color: white !important;
+    }
+
+    .cit-logo-light {
+        display: none !important;
+    }
+    .cit-logo-dark {
+        display: block !important;
+    }
+}
+
 
 .collapse-group {
 

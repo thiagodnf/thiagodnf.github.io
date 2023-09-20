@@ -10,7 +10,7 @@ export default function CollapseGroup({ id, title, children, collapsed = false }
 
     return (
         <div className="collapse-group" key={key}>
-            <p className={`fw-bold ${collapsedAsCls}`} data-bs-toggle="collapse" data-bs-target={`#${key}`} >
+            <p className={`text-dark ${collapsedAsCls}`} data-bs-toggle="collapse" data-bs-target={`#${key}`} >
                 <i className={"bi bi-chevron-right"} />{title}
             </p>
             <div className={`collapse ${showAsCls}`} id={key}>
