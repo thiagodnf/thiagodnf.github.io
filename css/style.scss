@@ -42,7 +42,6 @@ main {
 @include color-mode(dark) {
 
     body {
-        background-color: $dracula-black !important;
         color: $dracula-disabled !important;
     }
 
@@ -56,13 +55,6 @@ main {
 
     strong {
         color: white !important;
-    }
-
-    .cit-logo-light {
-        display: none !important;
-    }
-    .cit-logo-dark {
-        display: block !important;
     }
 }
 
