@@ -34,22 +34,26 @@ export default function ServicePage({ services }) {
 
             <p>This is not the full list. We will update it as soon as possible.</p>
 
-            <h5>Journal Reviewer</h5>
+            <p className="text-dark">Journal Reviewer</p>
+
             <ul>
                 {journalReviewerAsHTML}
             </ul>
 
-            <h5>Program Committee Chair</h5>
+            <p className="text-dark">Program Committee Chair</p>
+
             <ul>
                 {programChairAsHTML}
             </ul>
 
-            <h5>Program Committee Member</h5>
+            <p className="text-dark">Program Committee Member</p>
+
             <ul>
                 {committeeMemberAsHTML}
             </ul>
 
-            <h5>Session Chair of Conferences</h5>
+            <p className="text-dark">Session Chair of Conferences</p>
+
             <ul>
                 {sessionChairAsHTML}
             </ul>
