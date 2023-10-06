@@ -69,7 +69,7 @@ export default function Layout({ children, menu, title = "", hasGoBackButton = f
                         <div className="d-flex flex-column mb-1">
                             <h5 className="mt-3">{Package.author}</h5>
                             <div className="pt-1 small">Assistant Professor</div>
-                            <div className="pt-1 small">University of Michigan-Flint</div>
+                            <div className="pt-1 small text-secondary">University of Michigan-Flint</div>
                         </div>
                         <hr className="mx-2" />
                     </Container>
