@@ -86,11 +86,11 @@ function filterOut(array, searchTerm = "") {
 
 export default function PublicationsPage({ entries }) {
 
-    const [publicationType, setPublicationType] = useState("year");
+    const [type, setType] = useState("year");
     const [searchTerm, setSearchTerm] = useState("");
 
-    function handlePublicationType(event) {
-        setPublicationType(event.target.value);
+    function handleType(event) {
+        setType(event.target.value);
     }
 
     function handleSearchTerm(event) {
@@ -99,7 +99,7 @@ export default function PublicationsPage({ entries }) {
 
     let items = filterOut(entries.formatted, searchTerm);
 
-    let groupedList = createGroupsBy(items, publicationType);
+    let groupedList = createGroupsBy(items, type);
 
     let groupsAsHtml = createHTML(groupedList);
 
@@ -110,7 +110,7 @@ export default function PublicationsPage({ entries }) {
 
             <form className="row g-1 mb-3">
                 <Col xs="12" sm="3" md="2" lg="2" xl="1">
-                    <select className="form-select" value={publicationType} onChange={handlePublicationType}>
+                    <select className="form-select" value={type} onChange={handleType}>
                         <option value="year">Year</option>
                         <option value="annote">Type</option>
                     </select>
