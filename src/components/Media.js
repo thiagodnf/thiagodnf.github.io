@@ -1,3 +1,5 @@
+"use client";
+
 import { Children } from "react";
 
 export default function Media({ logo, name, location, children }) {

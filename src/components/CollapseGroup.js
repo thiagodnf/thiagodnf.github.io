@@ -1,3 +1,5 @@
+"user client";
+
 function generateId(text) {
     return "p-" + text.toLowerCase().replace(/[^a-zA-Z0-9]+/g, "-");
 }
