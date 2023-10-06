@@ -20,6 +20,13 @@ export default function AwardsPage() {
 
             <p>This is not the full list. We will update it as soon as possible.</p>
 
+            <h5>Awards</h5>
+
+            <ul>
+                <Item name="Early Career Award Academic" org="HFRCC Research Symposium 2023" />
+
+            </ul>
+
             <h5>Recognitions</h5>
 
             <ul>
