@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { Row, Col } from "react-bootstrap";
 import Layout from "../components/Layout";
 
 function SocialIcon({ href, icon }) {
@@ -22,32 +23,41 @@ export default function IndexPage() {
 
             <h5>Contact</h5>
 
-            <address>
-                <div className="mt-3">
-                    <i className={"bi bi-envelope me-2"} />
+            <Row className="mt-3">
+                <Col xs="auto" className="me-0 pe-0">
+                    <i className={"bi bi-envelope"} />
+                </Col>
+                <Col>
                     <a href="#">thiagod (the-at-symbol) umich.edu</a>
-                </div>
-                <div className="mt-3 row">
-                    <div className="col-auto me-0 pe-0">
-                        <i className={"bi bi-geo-alt me-2"} />
-                    </div>
+                </Col>
+            </Row>
 
-                    <div className="col ms-0 ps-0">
-                        <strong>College of Innovation &amp; Technology</strong><br />
-                        University of Michigan-Flint<br />
-                        303 E. Kearsley Street<br />
-                        Flint, Michigan 48502-1950, USA
-                    </div>
-                </div>
-                <div className="mt-3 ms-3">
+            <Row className="mt-3">
+                <Col xs="auto" className="me-0 pe-0">
+                    <i className={"bi bi-geo-alt"} />
+                </Col>
+                <Col>
+                    <strong>College of Innovation &amp; Technology</strong><br />
+                    University of Michigan-Flint<br />
+                    303 E. Kearsley Street<br />
+                    Flint, Michigan 48502-1950, USA
+                </Col>
+            </Row>
+
+            <Row className="mt-3">
+                <Col xs="auto" className="me-0 pe-0">
+                    <i className={"bi bi-geo-alt opacity-0"} />
+                </Col>
+                <Col>
                     <SocialIcon icon="ai ai-dblp" href="http://dblp.uni-trier.de/pers/hd/f/Ferreira:Thiago_do_Nascimento" />
                     <SocialIcon icon="ai ai-researchgate" href="https://www.researchgate.net/profile/Thiago_Ferreira22" />
                     <SocialIcon icon="ai ai-google-scholar" href="https://scholar.google.com/citations?user=nKKlinQAAAAJ" />
                     <SocialIcon icon="bi bi-twitter" href="https://twitter.com/thiagodnf" />
                     <SocialIcon icon="bi bi-github" href="https://github.com/thiagodnf" />
                     <SocialIcon icon="bi bi-linkedin" href="https://www.linkedin.com/in/thiagodnf" />
-                </div>
-            </address>
+                </Col>
+            </Row>
+
         </Layout>
     );
 };
