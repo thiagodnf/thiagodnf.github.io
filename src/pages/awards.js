@@ -23,7 +23,7 @@ export default function AwardsPage() {
             <h5>Awards</h5>
 
             <ul>
-                <Item name="Early Career Award Academic" org="2023 HFRCC Research Symposium" />
+                <Item name="Early Career Award Academic" org="2023 HFRCC Research Symposium, Flint, United States" />
             </ul>
 
             <h5>Recognitions</h5>
