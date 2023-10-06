@@ -9,7 +9,7 @@ import Layout from "../components/Layout";
 function Item({ name, org }) {
 
     return (
-        <li>{name}<br /><span className="text-secondary small">{org}</span></li>
+        <li>{name}<br /><small className="text-secondary">{org}</small></li>
     );
 }
 
