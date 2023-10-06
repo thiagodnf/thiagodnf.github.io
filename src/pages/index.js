@@ -23,11 +23,11 @@ export default function IndexPage() {
             <h5>Contact</h5>
 
             <address>
-                <div className="mt-4">
+                <div className="mt-3">
                     <i className={"bi bi-envelope me-2"} />
                     <a href="#">thiagod (the-at-symbol) umich.edu</a>
                 </div>
-                <div className="mt-4 row">
+                <div className="mt-3 row">
                     <div className="col-auto me-0 pe-0">
                         <i className={"bi bi-geo-alt me-2"} />
                     </div>
@@ -39,7 +39,7 @@ export default function IndexPage() {
                         Flint, Michigan 48502-1950, USA
                     </div>
                 </div>
-                <div className="mt-4 ms-4">
+                <div className="mt-3 ms-3">
                     <SocialIcon icon="ai ai-dblp" href="http://dblp.uni-trier.de/pers/hd/f/Ferreira:Thiago_do_Nascimento" />
                     <SocialIcon icon="ai ai-researchgate" href="https://www.researchgate.net/profile/Thiago_Ferreira22" />
                     <SocialIcon icon="ai ai-google-scholar" href="https://scholar.google.com/citations?user=nKKlinQAAAAJ" />

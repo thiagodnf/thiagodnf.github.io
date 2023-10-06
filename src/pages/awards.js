@@ -20,13 +20,13 @@ export default function AwardsPage() {
 
             <p>This is not the full list. We will update it as soon as possible.</p>
 
-            <p className="text-dark">Awards</p>
+            <h5>Awards</h5>
 
             <ul>
                 <Item name="Early Career Award Academic" org="2023 HFRCC Research Symposium" />
             </ul>
 
-            <p className="text-dark">Recognitions</p>
+            <h5>Recognitions</h5>
 
             <ul>
                 <Item name="Winter 2023 Golden Apple Recognition" org="Thompson Center for Learning & Teaching, University of Michigan-Flint" />
