@@ -71,7 +71,7 @@ export default function Layout({ children, menu, title = "", hasGoBackButton = f
                             <small className="mb-2">Assistant Professor</small>
                             <small className="mb-0 text-secondary">University of Michigan-Flint</small>
                         </div>
-                        <hr className="mx-2" />
+                        <hr className="mx-2 mb-2" />
                     </Container>
                     <Container fluid className="px-3">
                         <Navbar.Collapse id="navbar">
