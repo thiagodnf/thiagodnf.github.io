@@ -12,19 +12,19 @@ export default function CurriculumPage() {
 
             <Media name="PhD Degree in Computer Science (2015 - 2019)" location="Federal University of Paraná, Brazil" logo={"/images/logos/ufpr.png"} >
                 <li><strong>Title:</strong> A preference-based approach for reducing the number of objectives applied to the variability testing of software product line</li>
-                <li><strong>Advisors:</strong> Prof. Dr. Silvia Regina Vergilio</li>
-                <li><strong>Co-advisors:</strong> Prof. Jerffeson Teixeira de Souza and Prof. Marouane Kessentini</li>
-                <li><strong>Sandwich PhD:</strong> University of Michigan-Dearborn, USA - Prof. Dr. Marouane Kessentini</li>
+                <li><strong>Advisors:</strong> Dr. Silvia Regina Vergilio</li>
+                <li><strong>Co-advisors:</strong> Dr. Jerffeson Teixeira de Souza and Dr. Marouane Kessentini</li>
+                <li><strong>Sandwich PhD:</strong> University of Michigan-Dearborn, United States - Dr. Marouane Kessentini</li>
             </Media>
 
             <Media name="Masters Degree in Computer Science (2013 - 2015)" location="Ceará State University, Brazil" logo={"/images/logos/uece.png"} >
                 <li><strong>Title:</strong> Abordagens Interativas Usando Algoritmo de Otimização por Colônia de Formiga Para o Problema do Próximo Release (In Portuguese)</li>
-                <li><strong>Advisor:</strong> Prof. Dr. Jerffeson Teixeira de Souza</li>
+                <li><strong>Advisor:</strong> Dr. Jerffeson Teixeira de Souza</li>
             </Media>
 
             <Media name="Bachelor's Degree in Computer Science (2007 - 2012)" location="Ceará State University, Brazil" logo={"/images/logos/uece.png"} >
                 <li><strong>Title:</strong> Aplicação do Algoritmo de Colonia de Abelhas Simulada no Problema do Planejamento de Release de Software (In Portuguese)</li>
-                <li><strong>Advisor:</strong> Prof. Dr. Jerffeson Teixeira de Souza</li>
+                <li><strong>Advisor:</strong> Dr. Jerffeson Teixeira de Souza</li>
             </Media>
 
             <h5>Experiences</h5>

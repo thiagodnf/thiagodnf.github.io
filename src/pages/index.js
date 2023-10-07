@@ -40,7 +40,7 @@ export default function IndexPage() {
                     <strong>College of Innovation &amp; Technology</strong><br />
                     University of Michigan-Flint<br />
                     303 E. Kearsley Street<br />
-                    Flint, Michigan 48502-1950, USA
+                    Flint, Michigan 48502-1950, United States
                 </Col>
             </Row>
 
