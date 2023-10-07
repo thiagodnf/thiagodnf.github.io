@@ -39,6 +39,13 @@ main {
     }
 }
 
+h5 {
+    font-size: var(--bs-body-font-size);
+    margin-top: map_get($spacers, 3) !important;
+    margin-bottom: map_get($spacers, 3) !important;
+    font-weight: bold;
+}
+
 @include color-mode(dark) {
 
     body {
@@ -46,10 +53,6 @@ main {
     }
 
     h5, h6{
-        color: white !important;
-    }
-
-    .text-dark {
         color: white !important;
     }
 
