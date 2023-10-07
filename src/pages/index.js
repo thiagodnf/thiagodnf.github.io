@@ -23,7 +23,7 @@ export default function IndexPage() {
 
             <h5>Contact</h5>
 
-            <Row className="mt-3">
+            <Row className="mt-3 text-start">
                 <Col xs="auto" className="me-0 pe-0">
                     <i className={"bi bi-envelope"} />
                 </Col>
@@ -32,7 +32,7 @@ export default function IndexPage() {
                 </Col>
             </Row>
 
-            <Row className="mt-3">
+            <Row className="mt-3 text-start">
                 <Col xs="auto" className="me-0 pe-0">
                     <i className={"bi bi-geo-alt"} />
                 </Col>
@@ -44,7 +44,7 @@ export default function IndexPage() {
                 </Col>
             </Row>
 
-            <Row className="mt-3">
+            <Row className="mt-3 text-start">
                 <Col xs="auto" className="me-0 pe-0">
                     <i className={"bi bi-geo-alt opacity-0"} />
                 </Col>
