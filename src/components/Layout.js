@@ -52,7 +52,7 @@ export default function Layout({ children, menu, title = "", hasGoBackButton = f
                 </Navbar>
             </header >
             <aside>
-                <Navbar expand="md" fixed="top" id="sideNav" className="bg-body-tertiary">
+                <Navbar expand="md" fixed="top" id="sideNav" bg="dark" data-bs-theme="dark">
                     <Container fluid >
                         <Link href="/" className="navbar-brand d-block d-md-none">{Package.author}</Link>
                         <Navbar.Toggle className="custom-toggler" />
@@ -68,7 +68,7 @@ export default function Layout({ children, menu, title = "", hasGoBackButton = f
                         </Link>
                         <div className="d-flex flex-column mb-1">
                             <h5 className="mb-2">{Package.author}</h5>
-                            <small className="mb-2">Assistant Professor</small>
+                            <small className="mb-2 text-secondary">Assistant Professor</small>
                             <small className="mb-0 text-secondary">University of Michigan-Flint</small>
                         </div>
                         <hr className="mx-2 mb-2" />

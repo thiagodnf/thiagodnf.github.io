@@ -1,9 +1,4 @@
-$dracula-black: #15171b;
-$dracula-dark: #1d1e26;
-$dracula-light-dark: #282a36;
-$dracula-secondary: #414558;
 $dracula-disabled: #8a8f98;
-$dracula-muted: $dracula-secondary;
 
 $dracula-cyan: #80FFEA;
 $dracula-green: #8aff80;
@@ -13,6 +8,12 @@ $dracula-purple: #9580FF;
 $dracula-red: #ff9580;
 $dracula-yellow: #ffff80;
 $dracula-white: #f8f8f2;
+
+// $navbar-light-active-color: $primary;
+// $navbar-dark-active-color: $primary;
+$dark: #15171B;
+$body-bg-dark: #1D1E25;
+$body-color-dark: $dracula-disabled;
 
 @import "bootstrap";
 

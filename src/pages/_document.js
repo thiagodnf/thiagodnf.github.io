@@ -14,7 +14,7 @@ export default function Document() {
                 <meta name="description" content={Package.description} />
                 <meta name="keywords" content={Package.keywords} />
                 <meta name="robots" content="index, follow" />
-                <meta name="theme-color" content="#010409" />
+                <meta name="theme-color" content="#15171B" />
                 <meta name="mobile-web-app-capable" content="yes" />
                 <meta name="apple-mobile-web-app-capable" content="yes" />
                 <meta name="apple-mobile-web-app-status-bar-style" content="black" />

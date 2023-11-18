@@ -42,12 +42,6 @@ function changeColorThemeTo(colorTheme) {
     }
 
     window.document.documentElement.setAttribute("data-bs-theme", colorTheme.id);
-
-    if (colorTheme === ColorThemes.DARK) {
-        document.querySelector("meta[name=\"theme-color\"]").setAttribute("content", "#2C3035");
-    } else {
-        document.querySelector("meta[name=\"theme-color\"]").setAttribute("content", "#F8F9FA");
-    }
 }
 
 function Item({ value, handleClick, selected = false }) {
