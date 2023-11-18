@@ -1,7 +1,7 @@
 {
     "name": "thiagodnf.github.io",
     "description": "Assistant Professor at University of Michigan-Flint",
-    "version": "0.0.20",
+    "version": "0.0.21",
     "author": "Dr. Thiago Ferreira",
     "license": "MIT",
     "homepage": "http://www-personal.umich.edu/~thiagod/",
@@ -12,7 +12,7 @@
     "scripts": {
         "dev": "npm run lint-fix && next dev",
         "lint": "npx eslint .",
-        "build": "next build && next export",
+        "build": "next build",
         "lint-fix": "npx eslint . --fix",
         "update-dependencies": "ncu -u"
     },
