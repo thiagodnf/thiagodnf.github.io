@@ -3,7 +3,9 @@ import { Col } from "react-bootstrap";
 
 import Layout from "../components/Layout";
 import CollapseGroup from "../components/CollapseGroup";
-import BibTexUtils from "../utils/bibtex-util";
+
+import bibtex2html from "bibtex2html";
+import PathUtils from "../utils/PathUtils";
 
 const groups = {
     "journal": { order: 1, title: "Refereed Journal Papers" },
@@ -97,7 +99,7 @@ export default function PublicationsPage({ entries }) {
         setSearchTerm(event.target.value);
     }
 
-    let items = filterOut(entries.formatted, searchTerm);
+    let items = filterOut(entries, searchTerm);
 
     let groupedList = createGroupsBy(items, type);
 
@@ -128,13 +130,13 @@ export default function PublicationsPage({ entries }) {
 
 export async function getStaticProps() {
 
-    const res = await fetch("https://raw.githubusercontent.com/s3researchlab/s3researchlab.github.io/main/data/references.bib");
+    const path = PathUtils.get("data", "references.bib");
 
-    const fileContent = await res.text();
+    const content = await PathUtils.readFileContent(path);
 
     return {
         props: {
-            entries: BibTexUtils.parseFileContent(fileContent)
-        },
+            entries: new bibtex2html().parse(content)
+        }
     };
 }

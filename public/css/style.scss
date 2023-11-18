@@ -52,12 +52,14 @@ h5 {
         color: $dracula-disabled !important;
     }
 
-    h5, h6{
+    h5,
+    h6 {
         color: white !important;
     }
 
-    strong {
+    .entry .highlight {
         color: white !important;
+        font-weight: bold;
     }
 }
 
