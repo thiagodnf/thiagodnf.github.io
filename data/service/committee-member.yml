@@ -1,4 +1,9 @@
 # yaml-language-server: $schema=../../schemas/committee-member.schema.json
+- title: 28th ACM International Systems and Software Product Line Conference (SPLC '24)
+  year: 2024
+  roles:
+    - Artifact Evaluation Track
+
 - title: 18th International Working Conference on Variability Modelling of Software-Intensive Systems (VaMoS '24)
   year: 2024
   roles:
