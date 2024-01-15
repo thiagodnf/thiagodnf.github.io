@@ -25,20 +25,20 @@
     ],
     "devDependencies": {
         "@babel/eslint-parser": "7.23.3",
-        "@next/eslint-plugin-next": "14.0.3",
-        "eslint": "8.54.0"
+        "@next/eslint-plugin-next": "14.0.4",
+        "eslint": "8.56.0"
     },
     "dependencies": {
         "academicons": "1.9.2",
         "bibtex-parse": "2.1.0",
         "bibtex2html": "github:thiagodnf/bibtex2html",
         "bootstrap": "5.3.2",
-        "bootstrap-icons": "1.11.1",
+        "bootstrap-icons": "1.11.3",
         "js-yaml": "4.1.0",
-        "next": "14.0.3",
+        "next": "14.0.4",
         "react": "18.2.0",
-        "react-bootstrap": "2.9.1",
+        "react-bootstrap": "2.9.2",
         "react-dom": "18.2.0",
-        "sass": "1.69.5"
+        "sass": "1.69.7"
     }
 }

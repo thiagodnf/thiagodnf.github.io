@@ -1,4 +1,9 @@
 # yaml-language-server: $schema=../../schemas/committee-member.schema.json
+- title: 39th IEEE/ACM International Conference on Automated Software Engineering (ASE '24)
+  year: 2024
+  roles:
+    - Research Track
+
 - title: 28th ACM International Systems and Software Product Line Conference (SPLC '24)
   year: 2024
   roles:
