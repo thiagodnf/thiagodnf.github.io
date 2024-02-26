@@ -19,7 +19,7 @@ export default function IndexPage() {
 
             <h5 className="mt-0">About Me</h5>
 
-            <p>Dr. Thiago Ferreira is an Assistant Professor in the College of Innovation & Technology (CIT) at University of Michigan-Flint. In 2014, he received the Masters Degree in Computer Science from Ceara State University, advised by Prof. Dr Jerffeson Teixeira de Souza and in 2019, he received the PhD Degree in Computer Science from the Federal University of Parana advised by Prof. Dr. Silvia Regina Vergilio, with a sandwich PhD programme of 6 months at University of Michigan-Dearborn (USA). He  was also a Postdoctoral Research Fellow in the Intelligent Software Engineering Research Lab (ISE Lab) at University of Michigan-Dearborn with Prof. Dr. Marouane Kessentini (2020-2021). He has experience in the industry, where he worked as a software developer from 2012 to 2013. My research interests mainly focus on the use of User Preferences, Optimization Algorithms, and Artificial Intelligence techniques to address several Software Engineering problems such as Software Requirements, Software Testing, and Software Refactoring.</p>
+            <p>Thiago Ferreira is an Assistant Professor in the College of Innovation & Technology (CIT) at University of Michigan-Flint. He received the Ph.D. degree in Computer Science from the Federal University of Parana in 2019. His research interests focus on the use of user preferences, optimization algorithms, and artificial intelligence techniques to address several software engineering problems such as software requirements, software testing, and software refactoring.</p>
 
             <h5>Contact</h5>
 
