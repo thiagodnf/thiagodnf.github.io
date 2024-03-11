@@ -1,4 +1,9 @@
 # yaml-language-server: $schema=../../schemas/committee-member.schema.json
+- title: 16th Symposium on Search Based Software Engineering (SSBSE '24)
+  year: 2024
+  roles:
+    - RENE/NIER Track
+
 - title: 39th IEEE/ACM International Conference on Automated Software Engineering (ASE '24)
   year: 2024
   roles:
