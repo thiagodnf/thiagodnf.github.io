@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=../../schemas/committee-member.schema.json
-- title: 2024 IEEE Frontiers in Education (IEEE FIE '24)
+- title: 2024 IEEE Frontiers in Education (FIE '24)
   year: 2024
   roles:
     - Research Track
