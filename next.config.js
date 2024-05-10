@@ -1,5 +1,8 @@
 const nextConfig = {
-    output: "export"
+    output: "export",
+    eslint: {
+        dirs: ['src']
+    },
 };
 
 module.exports = nextConfig;

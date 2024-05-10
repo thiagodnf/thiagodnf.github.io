@@ -10,7 +10,7 @@
         "url": "http://www-personal.umich.edu/~thiagod/"
     },
     "scripts": {
-        "dev": "npm run lint-fix && next dev",
+        "dev": "next dev",
         "lint": "npx eslint .",
         "build": "next build",
         "lint-fix": "npx eslint . --fix",
@@ -24,9 +24,9 @@
         "thiagodonferreira"
     ],
     "devDependencies": {
-        "@babel/eslint-parser": "7.23.10",
-        "@next/eslint-plugin-next": "14.1.0",
-        "eslint": "8.57.0"
+        "@babel/eslint-parser": "7.24.5",
+        "@next/eslint-plugin-next": "14.2.3",
+        "eslint": "9.2.0"
     },
     "dependencies": {
         "academicons": "1.9.2",
@@ -35,10 +35,10 @@
         "bootstrap": "5.3.3",
         "bootstrap-icons": "1.11.3",
         "js-yaml": "4.1.0",
-        "next": "14.1.0",
-        "react": "18.2.0",
-        "react-bootstrap": "2.10.1",
-        "react-dom": "18.2.0",
-        "sass": "1.71.1"
+        "next": "14.2.3",
+        "react": "18.3.1",
+        "react-bootstrap": "2.10.2",
+        "react-dom": "18.3.1",
+        "sass": "1.77.0"
     }
 }
