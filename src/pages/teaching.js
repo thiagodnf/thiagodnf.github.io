@@ -12,8 +12,8 @@ export default function TeachingPage() {
                 <li when="(Fall '23)">SWE 380 Software Engineering</li>
                 <li when="(Fall '22, '23)">ITI 220 Introduction to Embedded Systems</li>
                 <li when="(Winter '22, '23)">ITI 100 Introduction to Software Development</li>
-                <li when="(Winter '23)">ITI 220 Introduction to Cloud Computing</li>
-                <li when="(Fall '21, '22)">CIT 100 Technology Foundations</li>
+                <li when="(Winter '23, '24)">ITI 220 Introduction to Cloud Computing</li>
+                <li when="(Fall '21, '22, '23, Winter '24)">CIT 100 Technology Foundations</li>
             </Media>
 
             <Media name="University of Michigan-Dearborn" location="Dearborn, United States" logo={"/images/logos/um-dearborn.jpg"} >
