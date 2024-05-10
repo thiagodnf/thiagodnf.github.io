@@ -47,6 +47,10 @@ h5 {
     font-weight: bold;
 }
 
+.entry .highlight {
+    font-weight: bold;
+}
+
 @include color-mode(dark) {
 
     body {
@@ -60,7 +64,6 @@ h5 {
 
     .entry .highlight {
         color: white !important;
-        font-weight: bold;
     }
 }
 
