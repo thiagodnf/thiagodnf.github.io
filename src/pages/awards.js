@@ -26,6 +26,12 @@ export default function AwardsPage() {
                 <Item name="Early Career Award Academic" org="2023 HFRCC Research Symposium, Flint, United States" />
             </ul>
 
+            <h5>Nominations</h5>
+
+            <ul>
+                <Item name="Outstanding Student Organization Advisor Nomination" org="2024 Celebrating Wolverine Excellence (CWE), University of Michigan-Flint" />
+            </ul>
+
             <h5>Recognitions</h5>
 
             <ul>
