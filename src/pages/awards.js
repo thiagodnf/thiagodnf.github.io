@@ -30,7 +30,7 @@ export default function AwardsPage() {
             <h5>Nominations</h5>
 
             <ul>
-                <Item name="Outstanding Student Organization Advisor Nomination" org="2024 Celebrating Wolverine Excellence (CWE), University of Michigan-Flint" />
+                <Item name="2024 Outstanding Student Organization Advisor Nomination" org="Student Involvement and Leadership, University of Michigan-Flint" />
             </ul>
 
             <h5>Recognitions</h5>
