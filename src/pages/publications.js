@@ -39,9 +39,9 @@ function createCollapseGroup(title, entries) {
 
     return (
         <CollapseGroup title={title} key={title}>
-            <ul>
+            <ol>
                 {items}
-            </ul>
+            </ol>
         </CollapseGroup>
     );
 }
