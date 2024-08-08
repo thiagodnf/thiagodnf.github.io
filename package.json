@@ -14,7 +14,7 @@
         "lint": "npx eslint .",
         "build": "next build",
         "lint-fix": "npx eslint . --fix",
-        "update-dependencies": "ncu -u"
+        "update-dependencies": "npx npm-check-updates -u"
     },
     "keywords": [
         "thiagodnf",
@@ -24,9 +24,9 @@
         "thiagodonferreira"
     ],
     "devDependencies": {
-        "@babel/eslint-parser": "7.24.5",
-        "@next/eslint-plugin-next": "14.2.3",
-        "eslint": "9.2.0"
+        "@babel/eslint-parser": "7.25.1",
+        "@next/eslint-plugin-next": "14.2.5",
+        "eslint": "9.8.0"
     },
     "dependencies": {
         "academicons": "1.9.2",
@@ -35,10 +35,10 @@
         "bootstrap": "5.3.3",
         "bootstrap-icons": "1.11.3",
         "js-yaml": "4.1.0",
-        "next": "14.2.3",
+        "next": "14.2.5",
         "react": "18.3.1",
-        "react-bootstrap": "2.10.2",
+        "react-bootstrap": "2.10.4",
         "react-dom": "18.3.1",
-        "sass": "1.77.0"
+        "sass": "1.77.8"
     }
 }
