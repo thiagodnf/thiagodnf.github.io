@@ -23,6 +23,7 @@ export default function AwardsPage() {
             <h5>Awards</h5>
 
             <ul>
+                <Item name="Faculty Innovation Award" org="Hagerman Center for Entrepreneurship & Innovation, University of Michigan-Flint" />
                 <Item name="2024 Lois Matz Rosen Junior Faculty Excellence in Teaching Award" org="Thompson Center for Learning & Teaching, University of Michigan-Flint" />
                 <Item name="Early Career Award Academic" org="2023 Healthy Flint Research Coordinating Center Research Symposium, Flint, United States" />
             </ul>
