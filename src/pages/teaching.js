@@ -13,7 +13,9 @@ export default function TeachingPage() {
                 <li when="(Fall '22, '23)">ITI 220 Introduction to Embedded Systems</li>
                 <li when="(Winter '22, '23)">ITI 100 Introduction to Software Development</li>
                 <li when="(Winter '23, '24 and Fall '24)">ITI 220 Introduction to Cloud Computing</li>
-                <li when="(Fall '21, '22, '23 and Winter '24)">CIT 100 Technology Foundations</li>
+                <li when="(Fall '21, '22, '23 and Winter '24, '25)">CIT 100 Technology Foundations</li>
+                <li when="(Winter '25)">CSC 595 Master's Thesis I</li>
+                <li when="(Fall '24)">CSC 391 Independent Study</li>
             </Media>
 
             <Media name="University of Michigan-Dearborn" location="Dearborn, United States" logo={"/images/logos/um-dearborn.jpg"} >
