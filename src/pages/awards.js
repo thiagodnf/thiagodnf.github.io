@@ -37,6 +37,7 @@ export default function AwardsPage() {
             <h5>Recognitions</h5>
 
             <ul>
+                <Item name="Fall 2024 Golden Apple Recognition" org="Thompson Center for Learning & Teaching, University of Michigan-Flint" />
                 <Item name="Winter 2023 Golden Apple Recognition" org="Thompson Center for Learning & Teaching, University of Michigan-Flint" />
                 <Item name="Fall 2022 Golden Apple Recognition" org="Thompson Center for Learning & Teaching, University of Michigan-Flint" />
             </ul>
