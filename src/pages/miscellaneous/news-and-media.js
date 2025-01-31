@@ -30,6 +30,14 @@ export default function NewsAndMediaPage() {
             <p>Occasions where I was invited to speak about me or my projects</p>
 
             <Entry
+                title="UM-Flint occupational therapy, technology students make a difference for Flint child"
+                author="Martha Pennington"
+                when="August 8, 2023"
+                link="https://news.umflint.edu/2023/08/08/um-flint-occupational-therapy-technology-students-make-a-difference-for-flint-child/">
+                Kaden Stevenson of Flint looked like any other kid having a great day when he recently drove a Spider-Man Power Wheels car in front of the William S. White Building at the University of Michigan-Flint.
+            </Entry>
+
+            <Entry
                 title="University of Michigan-Flint has plans for a new technology facility"
                 author="Flint Beat"
                 when="April 1, 2023"
