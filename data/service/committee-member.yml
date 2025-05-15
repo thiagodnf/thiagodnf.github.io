@@ -1,4 +1,24 @@
 # yaml-language-server: $schema=../../schemas/committee-member.schema.json
+- title: 4th Brazilian Workshop on Intelligent Software Engineering (ISE '25)
+  year: 2025
+  roles:
+    - Research Track
+
+- title: 38th Brazilian Symposium on Software Engineering (SBES '25)
+  year: 2025
+  roles:
+    - IIER Track
+
+- title: 29th ACM International Systems and Software Product Line Conference (SPLC '25)
+  year: 2025
+  roles:
+    - Artifact Evaluation Track
+
+- title: 2025 IEEE Frontiers in Education (FIE '25)
+  year: 2025
+  roles:
+    - Research Track
+
 - title: 2024 IEEE Frontiers in Education (FIE '24)
   year: 2024
   roles:

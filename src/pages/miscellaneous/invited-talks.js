@@ -26,6 +26,13 @@ export default function InvitedTalksPage() {
                 <Item title="Chatbot Demo - Integration in your Classroom" subtitle="CIS Research Seminar, University of Michigan-Dearborn, United States, April 30, 2020" />
             </ul>
 
+            <h5>Panels</h5>
+
+            <ul>
+                <Item title="2024 First-Generation Networking Event" subtitle="UM-Flint's Student Government, University of Michigan-Flint, United States, March 26, 2025" />
+                <Item title="2025 First-Generation Networking Event" subtitle="UM-Flint's Student Government, University of Michigan-Flint, United States, April 9, 2024" />
+            </ul>
+
         </Layout>
     );
 }
