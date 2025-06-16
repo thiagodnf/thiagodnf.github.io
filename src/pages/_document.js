@@ -6,7 +6,7 @@ import Package from "../../package.json";
 export default function Document() {
 
     return (
-        <Html lang="en" className="h-100" data-bs-theme="dark">
+        <Html lang="en" className="h-100">
             <Head>
                 <meta charSet="utf-8" />
 
