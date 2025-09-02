@@ -49,6 +49,7 @@ export default function IndexPage() {
                     <i className={"bi bi-geo-alt opacity-0"} />
                 </Col>
                 <Col>
+                    <SocialIcon icon="ai ai-orcid" href="https://orcid.org/0000-0001-7010-8306" />
                     <SocialIcon icon="ai ai-dblp" href="http://dblp.uni-trier.de/pers/hd/f/Ferreira:Thiago_do_Nascimento" />
                     <SocialIcon icon="ai ai-researchgate" href="https://www.researchgate.net/profile/Thiago_Ferreira22" />
                     <SocialIcon icon="ai ai-google-scholar" href="https://scholar.google.com/citations?user=nKKlinQAAAAJ" />
