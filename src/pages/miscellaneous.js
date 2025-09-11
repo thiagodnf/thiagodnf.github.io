@@ -33,6 +33,7 @@ export default function MiscellaneousPage() {
                 <MenuItem icon="megaphone" name="News &amp; Media" href="/news-and-media" />
                 <MenuItem icon="link" name="Links" href="/links" />
                 <MenuItem icon="question-circle" name="FAQ" href="/faq" />
+                <MenuItem icon="game" name="My Games" href="/my-games" />
             </Row>
 
         </Layout>
