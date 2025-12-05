@@ -24,9 +24,9 @@
         "thiagodonferreira"
     ],
     "devDependencies": {
-        "@babel/eslint-parser": "7.28.0",
-        "@next/eslint-plugin-next": "15.5.2",
-        "eslint": "9.34.0"
+        "@babel/eslint-parser": "7.28.5",
+        "@next/eslint-plugin-next": "16.0.7",
+        "eslint": "9.39.1"
     },
     "dependencies": {
         "academicons": "1.9.5",
@@ -34,11 +34,11 @@
         "bibtex2html": "github:thiagodnf/bibtex2html",
         "bootstrap": "5.3.8",
         "bootstrap-icons": "1.13.1",
-        "js-yaml": "4.1.0",
-        "next": "15.5.2",
-        "react": "19.1.1",
+        "js-yaml": "4.1.1",
+        "next": "16.0.7",
+        "react": "19.2.1",
         "react-bootstrap": "2.10.10",
-        "react-dom": "19.1.1",
-        "sass": "1.91.0"
+        "react-dom": "19.2.1",
+        "sass": "1.94.2"
     }
 }
