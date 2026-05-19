@@ -29,7 +29,13 @@ export default function InvitedTalksPage() {
             <h5>Panels</h5>
 
             <ul>
+
+                <Item title="WiCyS Student Panel" subtitle="2026 Cybersecurity Symposium, University of Michigan-Flint, Flint, United States, October 30th, 2025" />
+
+                <Item title="Inside the Industry of Information Technology Roundtable" subtitle="Michigan Rehabilitation Services’s STEMM-Up, Online, August 14th, 2025" />
+
                 <Item title="2024 First-Generation Networking Event" subtitle="UM-Flint's Student Government, University of Michigan-Flint, United States, March 26, 2025" />
+
                 <Item title="2025 First-Generation Networking Event" subtitle="UM-Flint's Student Government, University of Michigan-Flint, United States, April 9, 2024" />
             </ul>
 
