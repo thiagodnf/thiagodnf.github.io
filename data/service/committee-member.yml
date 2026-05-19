@@ -1,10 +1,56 @@
 # yaml-language-server: $schema=../../schemas/committee-member.schema.json
+- title: International Workshop on Evolutionary Computation for Autonomous Cyber-Physical Systems
+  year: 2026
+  roles:
+    - Research Track
+
+- title: 5th Brazilian Workshop on Intelligent Software Engineering (ISE ’26)
+  year: 2026
+  roles:
+    - Research Track
+
+- title: 18th Symposium on Search Based Software Engineering (SSBSE ’26)
+  year: 2026
+  roles:
+    - Research Track
+
+- title: 40th Brazilian Symposium on Software Engineering (SBES ’26)
+  year: 2026
+  roles:
+    - Research Track
+
+- title: 40th Brazilian Symposium on Software Engineering (SBES ’26)
+  year: 2026
+  roles:
+    - IIER Track
+
+- title: 17th Symposium on Search Based Software Engineering (SSBSE ’25)
+  year: 2025
+  roles:
+    - Research Track
+
+- title: 17th Symposium on Search Based Software Engineering (SSBSE ’25)
+  year: 2025
+  roles:
+    - Research Track
+
+
+
+
+
+
+
+
+
+
+
+
 - title: 4th Brazilian Workshop on Intelligent Software Engineering (ISE '25)
   year: 2025
   roles:
     - Research Track
 
-- title: 38th Brazilian Symposium on Software Engineering (SBES '25)
+- title: 39th Brazilian Symposium on Software Engineering (SBES '25)
   year: 2025
   roles:
     - IIER Track
