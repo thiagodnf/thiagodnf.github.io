@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import PathUtils from "../utils/PathUtils.js";
 
-function Item({ title, subtitle = []}) {
+function Item({ title, subtitle = [] }) {
 
     let subtitleAsHTML = subtitle.map((el, i) => {
         return <small key={i} className="me-2 badge fw-normal text-primary-emphasis bg-primary-subtle border border-primary-subtle">{el}</small>;
@@ -29,6 +29,10 @@ export default function ServicePage({ services }) {
         return <Item key={i} title={el.title} subtitle={el.roles} />;
     });
 
+    const webCoChairAsHTML = services.webCoChair.map((el, i) => <Item key={i} title={el} />);
+
+    const publicityCoChairAsHTML = services.publicityCoChair.map((el, i) => <Item key={i} title={el} />);
+
     return (
         <Layout menu="Service">
 
@@ -45,6 +49,19 @@ export default function ServicePage({ services }) {
             <ul>
                 {programChairAsHTML}
             </ul>
+
+            <h5>Publicity Co-Chair</h5>
+
+            <ul>
+                {publicityCoChairAsHTML}
+            </ul>
+
+            <h5>Web Co-Chair</h5>
+
+            <ul>
+                {webCoChairAsHTML}
+            </ul>
+
 
             <h5>Program Committee Member</h5>
 
@@ -72,7 +89,9 @@ export async function getStaticProps() {
                 committeeMember: await PathUtils.readYml(PathUtils.get(service, "committee-member.yml")),
                 journalReviewer: await PathUtils.readYml(PathUtils.get(service, "journal-reviewer.yml")),
                 programChair: await PathUtils.readYml(PathUtils.get(service, "program-chair.yml")),
-                sessionChair: await PathUtils.readYml(PathUtils.get(service, "session-chair.yml"))
+                sessionChair: await PathUtils.readYml(PathUtils.get(service, "session-chair.yml")),
+                webCoChair: await PathUtils.readYml(PathUtils.get(service, "web-co-chair.yml")),
+                publicityCoChair: await PathUtils.readYml(PathUtils.get(service, "publicity-co-chair.yml"))
             }
         },
     };
