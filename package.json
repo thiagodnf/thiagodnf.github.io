@@ -23,6 +23,9 @@
         "thiagod",
         "thiagodonferreira"
     ],
+    "overrides": {
+        "postcss": "^8.5.10"
+    },
     "dependencies": {
         "academicons": "1.9.5",
         "bibtex-parse": "2.1.0",
