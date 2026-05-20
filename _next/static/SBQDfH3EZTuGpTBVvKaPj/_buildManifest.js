@@ -1,42 +1,42 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/0i0m1z2fbzg8v.js"
+    "static/chunks/0tzr--1rhh982.js"
   ],
   "/_error": [
     "static/chunks/11yktcnxb~wa6.js"
   ],
   "/awards": [
-    "static/chunks/0ye-_hy50xomr.js"
+    "static/chunks/0i51st~hzk2mt.js"
   ],
   "/curriculum": [
-    "static/chunks/0ln7.-ooncfuo.js"
+    "static/chunks/01pl0r43zve33.js"
   ],
   "/miscellaneous": [
-    "static/chunks/0ioxwawmhocgq.js"
+    "static/chunks/0jj_1xhqp2ldw.js"
   ],
   "/miscellaneous/faq": [
-    "static/chunks/0b1wm_dlbt9mg.js"
+    "static/chunks/0tky~.po._hvm.js"
   ],
   "/miscellaneous/invited-talks": [
-    "static/chunks/0vzdudntlrlst.js"
+    "static/chunks/09~6w2vfyvy5m.js"
   ],
   "/miscellaneous/links": [
-    "static/chunks/0togw76hooqm_.js"
+    "static/chunks/02b6zs6bkefhr.js"
   ],
   "/miscellaneous/my-games": [
-    "static/chunks/09gqnlrrv3xt6.js"
+    "static/chunks/0cqgp~z51qin7.js"
   ],
   "/miscellaneous/news-and-media": [
-    "static/chunks/14oooz94g_chk.js"
+    "static/chunks/0ebxz3tlpdfwa.js"
   ],
   "/publications": [
-    "static/chunks/0up.gxk66b60u.js"
+    "static/chunks/0uqxvbm.2a.rb.js"
   ],
   "/service": [
-    "static/chunks/0.o.cg_vupaz1.js"
+    "static/chunks/0qpnk5o52e9z-.js"
   ],
   "/teaching": [
-    "static/chunks/0tjk_qzs4r7...js"
+    "static/chunks/01kyudfaz-049.js"
   ],
   "__rewrites": {
     "afterFiles": [],
